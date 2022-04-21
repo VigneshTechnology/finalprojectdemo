@@ -1,0 +1,23 @@
+
+<div class="photo">
+<div align="center">
+    <h2 class="text"><b> Add Book Record</b> </h2>
+    <br><br>
+  <form #insertform="ngForm" (ngSubmit)="insertdata(insertform)">
+    <div class="form-group">
+    <label><b> Book ID : </b></label><br>
+    <input type="text" #id (ngModel)="id" name="id" id="id" class="form-class">
+    </div> <br>
+    <div class="form-group">
+    <label><b> Book Name : </b></label><br>
+    <input type="text" #name (ngModel)="name" name="name" id="name" class="form-class">
+    </div><br>
+    <div class="form-group">
+    <label><b> Book Price :</b> </label><br>
+    <input type="text" #price (ngModel)="price" name="price" id="price" class="form-class">
+    </div><br>
+    <div class="form-group">
+    <input type="submit" value="ADD" class="btn btn-primary w-20">
+    </div>
+  </form><br><br><br>
+</div></div>

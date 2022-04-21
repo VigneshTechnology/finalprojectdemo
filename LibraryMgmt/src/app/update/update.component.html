@@ -1,0 +1,23 @@
+<div class="photo">
+<div align="center">
+    <h2 class="text"><b> Update Book Record </b> </h2>
+      <br><br>
+     <form #updateform="ngForm" (ngSubmit)="update(updateform)">
+       <div class="form-group">
+       <label> Book ID : </label><br>
+       <input type="text" #id (ngModel)="id" name="id" id="id" class="form-class">
+       </div> <br>
+      <div class="form-group">
+       <label> Book Name : </label><br>
+       <input type="text" #name (ngModel)="name" name="name" id="name" class="form-class">
+       </div><br>
+       <div class="form-group">
+         <label> Book Price : </label><br>
+         <input type="text" #price (ngModel)="price" name="price" id="price" class="form-class">
+        </div><br><br>
+        <div class="form-group">
+          <input type="submit" value="Update" class="btn btn-primary w-20">
+         </div>
+    </form>
+   </div><br><br>
+</div>

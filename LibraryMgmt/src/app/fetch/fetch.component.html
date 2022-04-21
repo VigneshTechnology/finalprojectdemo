@@ -1,0 +1,26 @@
+
+<div class="photo">
+<div align="center">
+    
+    <table>
+        <thead >
+            <tr >
+                <th > <b> ID </b></th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <th> <b>Name </b></th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <th><b> Price</b> </th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </tr>
+        </thead>
+
+        <tbody><br>
+            <tr *ngFor="let book of bookdetails">
+                <td><b> {{book.id}}</b> </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td> {{book.name}} </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td><b> {{book.price}}</b> </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </tr>
+                
+        </tbody>      
+    </table>
+ </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <br><br>
+</div>
+
